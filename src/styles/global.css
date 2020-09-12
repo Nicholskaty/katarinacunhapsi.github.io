@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
+h1 {
+  color: #393430;
+  font: 400 3.4rem Righteous;
+  margin: 0 0;
+  letter-spacing: -2px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu img {
+  width: 25px;
+  height: 25px;
+}
+
+#menu .menu-content {
+  width: 100%;
+  height: 100vh;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  background: #393430;
+}
+
+#menu .menu-content h2 {
+  color: #fff;
+  font: 400 30px 'Baloo Tamma 2';
+  position: relative;
+  top: -2.8rem;
+}
+
+#menu .menu-content span {
+  color: #fff;
+  font: 400 0.8rem 'Slabo 27px';
+  text-align: center;
+  margin: 0 30px;
+  position: relative;
+  top: -2rem;
+}

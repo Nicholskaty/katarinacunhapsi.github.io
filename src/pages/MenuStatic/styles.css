@@ -1,0 +1,49 @@
+
+h1 {
+  color: #393430;
+  font: 400 3.4rem Righteous;
+  margin: 0 0;
+  letter-spacing: -2px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu .menu-title {
+  width: 100%;
+  height: 100vh;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  background: #fff;
+}
+
+#menu .menu-title .first {
+  position: relative;
+  right: 2rem;
+}
+
+#menu .menu-title .second {
+  position: relative;
+  right: -0.6rem;
+}
+
+#menu .menu-title .third {
+  position: relative;
+  right: -3.6rem;
+}
+
+#menu .menu-title h3 {
+  color: #ed707a;
+  font: 400 2.6rem Caveat;
+  text-shadow: 1px -1px 1px #844c2a;
+
+  letter-spacing: 6px;
+
+  position: relative;
+  bottom: 32px;
+}

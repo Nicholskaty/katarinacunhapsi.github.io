@@ -1,0 +1,16 @@
+.item-group {
+  list-style: none;
+  display: flex;
+  position: fixed;
+  bottom: 1rem;
+}
+
+.item-group li {
+  margin: 0 1rem;
+  font: 400 0.8rem 'Slabo 27px';
+  color: #6e6e6d;
+}
+
+.item-group li .active {
+  color:#ed707b;
+}
